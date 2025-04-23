@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajafre</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <section id="cadastro">
+        <h1>Cadastramento</h1>
+        <p>Aqui preencha as informações pedidas</p>
+        <form>
+            <div>
+                <div class="line">
+                    <label for="nome-completo-usuario">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome-completo-usuario" placeholder=" Digite seu nome completo" required>
+                </div> <br>
+                <div class="line">
+                    <label for="email-usuario">Email:</label>
+                    <input type="text" name="email" id="email-usuario" required>
+                </div> <br>
+                <div class="line">
+                    <label for="senha-usuario">Senha:</label>
+                    <input type="password" name="senha" id="senha-usuario" required>
+                </div> <br>
+            </div>
+            <div class="line">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" id="masculino">
+                <label class="sexo" for="masculino">Masculino</label> <br>
+                <input type="radio" name="sexo" id="feminino">
+                <label class="sexo" for="feminino">Feminino</label> <br>
+                <input type="radio" name="sexo" id="prefiro">
+                <label class="sexo" for="prefiro">Prefiro não informar</label>
+
+            </div> <br>
+            <div class="line">
+                <input type="checkbox" required>
+                <label class="sexo" for="termos">Estou ciente das informações prestadas.</label>
+            </div> <br>
+            <button>Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

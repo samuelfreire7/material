@@ -1,0 +1,35 @@
+form {
+    margin: auto;
+    background-color: whitesmoke;
+    color: #1B3B4F;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 20px 20px 20px rgba(89, 88, 88, 0.437);
+    text-align: center;
+}
+label {
+    display: block;
+}
+.sexo {
+    display: inline;
+}
+input {
+    border-radius: 20px ;
+    border: 2px solid #1B3B4F;
+}
+#cadastro {
+    background-color: #1B3B4F;
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+p {
+    justify-content: center;
+    width: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(54, 50, 50);
+}
+section {
+    background-color: white;
+    width: 400px;
+    height: 725px;
+    border-radius: 10px;
+}
+header {
+    color: ;
+    background-color: blue;
+    border-radius: 10px;
+}
