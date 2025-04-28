@@ -1,5 +1,13 @@
-let nomes = ["Samuel", "Daniel", "Vitoria", "Júlia", "Jairo", "Ramilka"]
+let nomes = ["Samuel", "Daniel", "Vitoria", "Júlia", "Jairo", "Ramilka"];
 
-for (let i = 0; i < nomes.length; i++) {
-    console.log("Olá " +nomes[i]);
+function listaNomes(nome) { 
+    // for (let i = 0; i < nomes.length; i++) {
+    //     console.log("Olá " +nomes[i] + "!");
+    // }
+    for ( let nome of nomes) {
+        console.log("Olá, " + nome + "!");
+        
+    }
 }
+
+listaNomes(nomes);
